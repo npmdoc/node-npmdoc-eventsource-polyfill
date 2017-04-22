@@ -1,4 +1,7 @@
-# api documentation for  [eventsource-polyfill (v0.9.6)](https://github.com/amvtek/EventSource)  [![npm package](https://img.shields.io/npm/v/npmdoc-eventsource-polyfill.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eventsource-polyfill) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eventsource-polyfill.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eventsource-polyfill)
+# npmdoc-eventsource-polyfill
+
+#### api documentation for  [eventsource-polyfill (v0.9.6)](https://github.com/amvtek/EventSource)  [![npm package](https://img.shields.io/npm/v/npmdoc-eventsource-polyfill.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eventsource-polyfill) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eventsource-polyfill.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eventsource-polyfill)
+
 #### A browser polyfill for W3C EventSource (http://www.w3.org/TR/eventsource/)
 
 [![NPM](https://nodei.co/npm/eventsource-polyfill.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eventsource-polyfill)
@@ -18,32 +21,24 @@
 ```json
 
 {
-    "author": {
-        "name": "amvtek"
-    },
-    "bugs": {
-        "url": "https://github.com/amvtek/EventSource/issues"
-    },
-    "dependencies": {},
+    "name": "eventsource-polyfill",
+    "version": "0.9.6",
     "description": "A browser polyfill for W3C EventSource (http://www.w3.org/TR/eventsource/)",
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-uglify": "^0.6.0",
-        "grunt-string-replace": "^1.0.0"
-    },
+    "main": "dist/browserify-eventsource.js",
     "directories": {
         "doc": "docs"
-    },
-    "dist": {
-        "shasum": "10e0d187f111b167f28fdab918843ce7d818f13c",
-        "tarball": "https://registry.npmjs.org/eventsource-polyfill/-/eventsource-polyfill-0.9.6.tgz"
     },
     "files": [
         "dist/eventsource.js",
         "dist/browserify-eventsource.js"
     ],
-    "gitHead": "030f993d5bc2a9f9aeabfcafcd5ea4e8424ff68a",
-    "homepage": "https://github.com/amvtek/EventSource",
+    "scripts": {
+        "test": "echo \"Error: to run browser tests, visit http://testevs.amvtek.com/\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amvtek/EventSource.git"
+    },
     "keywords": [
         "sse",
         "server sent events",
@@ -51,23 +46,18 @@
         "event-source",
         "polyfill"
     ],
+    "author": "amvtek <devel@amvtek.com>",
     "license": "MIT",
-    "main": "dist/browserify-eventsource.js",
-    "maintainers": [
-        {
-            "name": "amvtek"
-        }
-    ],
-    "name": "eventsource-polyfill",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/amvtek/EventSource.git"
+    "bugs": {
+        "url": "https://github.com/amvtek/EventSource/issues"
     },
-    "scripts": {
-        "test": "echo \"Error: to run browser tests, visit http://testevs.amvtek.com/\" && exit 1"
+    "homepage": "https://github.com/amvtek/EventSource",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-uglify": "^0.6.0",
+        "grunt-string-replace": "^1.0.0"
     },
-    "version": "0.9.6"
+    "bin": {}
 }
 ```
 
